@@ -13,6 +13,9 @@
     <exclude-pattern>*/vendor/*</exclude-pattern>
 
     <rule ref="PSR12"/>
+    <rule ref="PHPCompatibility"/>
+
+    <config name="testVersion" value="7.4-8.0"/>
 
     <!-- Use tabs, not spaces. -->
     <rule ref="Generic.WhiteSpace">
