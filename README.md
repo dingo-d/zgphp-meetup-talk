@@ -17,4 +17,3 @@ And either use composer scripts found in `composer.json` or run the commands man
 - [PHP_CodeSniffer Annotated Ruleset](https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki/Annotated-Ruleset)
 - [PHP_CodeSniffer Usage](https://github.com/PHPCSStandards/PHP_CodeSniffer/wiki/Usage)
 
-g
