@@ -2,11 +2,19 @@
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
         "phpcompatibility/php-compatibility": "dev-develop",
+        "phpcsstandards/phpcsdevtools": "^1.2",
         "squizlabs/php_codesniffer": "^3.8"
     },
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
+    },
+    "scripts": {
+        "test:standards": "vendor/bin/phpcs",
+        "test:standards-explain": "vendor/bin/phpcs -e",
+        "test:standards-fix": "vendor/bin/phpcbf",
+        "test:standards-docs": "vendor/bin/phpcs --generator=Text --standard=PSR12",
+        "test:standards-debug": "vendor/bin/phpcs --standard=PHPCSDebug"
     }
 }
